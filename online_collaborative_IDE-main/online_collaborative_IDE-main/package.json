@@ -1,0 +1,39 @@
+{
+  "name": "online-collaborative-ide",
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "npm run serverprod",
+    "build": "vite build",
+    "build2": "vite build && npm run dev",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "serverdev": "nodemon server.js",
+    "serverprod": "node server.js"
+  },
+  "dependencies": {
+    "codemirror": "^5.65.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "react": "^18.2.0",
+    "react-avatar": "^5.0.3",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-router-dom": "^6.22.3",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "nodemon": "^3.1.0",
+    "vite": "^5.2.0"
+  }
+}

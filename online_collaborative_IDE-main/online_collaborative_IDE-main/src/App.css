@@ -1,0 +1,156 @@
+.homepagewrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100vh;
+}
+
+.formwrapper{
+    background: #282a36;
+    padding: 20px;
+    border-radius: 20px;
+    width: 400px;
+    max-width: 90%;
+    border: solid 2px #EF00DE;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
+
+footer a{
+    color: #EF00DE;
+}
+footer a:hover{
+    color: #A239EB;
+}
+
+.inputwrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    margin-bottom: 20px;
+    margin-top: 0;;
+}
+
+.logo{
+    width: 125px;
+}
+
+.inputbox{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 14px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+.joinBtn, .leaveBtn{
+    background: #EF00DE;
+    font-weight: bold;
+}
+
+.joinBtn:hover, .leaveBtn:hover{
+    background: #A239EB;
+}
+
+.newroom{
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+
+.createnewBtn{
+    color: #EF00DE;
+    text-decoration: none;
+    border-bottom: 1px solid #EF00DE;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.createnewBtn:hover{
+    color: #A239EB;
+    border-color: #A239EB;
+}
+
+.mainwrapper{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.sidepanel{
+    background: #282a36;
+    padding: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sidepanel-inner{
+    flex: 1;
+}
+
+.clientList{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.client{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.username-in-editor{
+    margin-top: 10px;
+
+}
+
+.logo2{
+    border-bottom: 1px solid #A239EB;
+    padding-bottom: 10px;
+}
+
+.logo2img{
+    width: 150px;
+}
+
+.leaveBtn{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.CodeMirror{
+    min-height: calc(100vh - 20px);
+    font-size: 22px;
+    line-height: 1.6;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
